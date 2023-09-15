@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    justify-content: space-around;
+
+    background: rgb(211, 94, 94);
+}
+
+img {
+    display: block;
+    max-width: 70%;
+    border-radius: 10px;
+ }
+ 
+ .primary-navigation {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+ }
+
+ .grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    margin-inline: none;
+ } 
